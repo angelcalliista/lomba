@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Permintaan Aktif</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="navbar">
+      <div class="logo"><span class="highlight">SI</span> KUNYIT</div>
+      <a href="./dashboardAdmin.html" class="back">Kembali</a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+      <div class="request-box">
+        <div class="header">Permintaan Aktif</div>
+        <div class="request">
+          <table>
+            <tr>
+              <th>NPM</th>
+              <th>NAME</th>
+              <th>ID</th>
+              <th>ACTION</th>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div id="activationDialog" style="display: none">
+        <div>
+          <h2>Aktivasi Mahasiswa</h2>
+          <label for="activationId">Masukkan ID:</label>
+          <input type="text" id="activationId" />
+          <div class="button-container">
+            <button id="saveActivation">Simpan</button>
+            <button id="cancelActivation">Batal</button>
+          </div>
+        </div>
+      </div>
+      <div id="rejectDialog" style="display: none">
+        <p>Apakah Anda yakin ingin menolak data ini?</p>
+        <button id="confirmReject">Iya</button>
+        <button id="cancelReject">Tidak</button>
+      </div>
+    </div>
+    <div class="back-button">
+      <a href="../tampilan_sudah_login/index.html" class="sidebar-btn">kembali</a>
+    </div>
+    <!-- Footer -->
+    <footer>
+      <p>WEB MONITORING LOCKER PINTAR</p>
+    </footer>
+    <script type="module" src="./config.js"></script>
+  </body>
+</html>

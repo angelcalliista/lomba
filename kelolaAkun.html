@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kelola Akun</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="navbar">
+      <div class="logo"><span class="highlight">SI</span> KUNYIT</div>
+      <a href="./dashboardAdmin.html" class="back">Kembali</a>
+    </div>
+    <!-- Main Content -->
+    <div class="container">
+      <div class="kelolaUser">
+        <div class="kelolaHeader">Kelola Akun</div>
+        <div class="request">
+          <table>
+            <thead>
+              <tr>
+                <th>NAMA</th>
+                <th>NPM</th>
+                <th>STATUS</th>
+              </tr>
+            </thead>
+            <tbody id="mahasiswaTbody">
+                <tr>
+                  <td>
+                    ANGEL CALLLLLLLLLLLLLLLIS ANGANGLKAN
+                  </td>
+                  <TD>
+                    2307411018
+                  </TD>
+                  <TD>AKTIFFF</TD>
+                </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="dialog" id="confirmationDialog" style="display: none">
+          <p>Apakah Anda yakin ingin menonaktifkan status?</p>
+          <button id="confirmDeactivate">Iya</button>
+          <button id="cancelDeactivate">Tidak</button>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="./config.js"></script>
+  </body>
+</html>

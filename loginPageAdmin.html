@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Halaman Login Admin</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="navbar">
+      <div class="logo"><span class="highlight">SI</span> KUNYIT</div>
+      <a href="./loginPage.html" class="back">Kembali</a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+      <!-- Login Form -->
+      <div class="login-form">
+        <h2>LOGIN ADMIN</h2>
+        <p>WEB MONITORING LOCKER PINTAR</p>
+        <form action="#">
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" id="emailAdmin" placeholder="Enter Email" required />
+            <label for="password">Password</label>
+            <input type="password" id="passwordAdmin" placeholder="Enter Password" required />
+            <a href="./dashboardAdmin.html" class="btn-login" id="submitLoginAdmin">LOGIN</a>
+          </div>
+        </form>
+      </div>
+
+      <!-- Logo Section -->
+      <div class="logo-section">
+        <img src="../images/sikunyit.png" alt="SI KUNYIT Logo" class="logo-image" />
+      </div>
+    </div>
+    <script type="module" src="config.js"></script>
+  </body>
+</html>
